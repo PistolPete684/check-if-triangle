@@ -25,3 +25,14 @@ Because we are looking for a true or false response, we can simply use the retur
    return a + b >= c && a + c >= b && b + c >= a && a + b + c >= 0;
 
 
+__________________________________________________________________________________________________________________________________________________________________________
+Final solution
+
+function isTriangle(a,b,c) {
+  // return the conditions needed to qualify as a triangle to get a true or false response
+   return a + b > c && a + c > b && b + c > a && a + b + c > 0;
+}
+
+
+
+
